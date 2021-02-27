@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+}
+
+#header {
+    margin: 50px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#caixaQuiz1 {
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(79, 236, 150);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.pergunta1 {
+    font-size: 1.0em;
+    font-weight: bold;
+}
+label {
+    display: flex;
+    flex-wrap: wrap; /* alinha elementos */
+    justify-content: space-between;
+}
+.A,.B,.C,.D {
+   flex: 1 1 100%;
+   position: relative;
+}
+#resposta1 {
+    padding: 10px;
+    font-size: .9rem;
+    color: #fff;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    height: 40px;
+    flex: 0 0 30%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+#conferir1 {
+    background-color: cornflowerblue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80%;
+    font-weight: bold;
+}
+#caixaQuiz2 {
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(79, 236, 150);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+#resposta2 {
+    padding: 10px;
+    font-size: .9rem;
+    color: #fff;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    height: 40px;
+    flex: 0 0 30%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 100%;
+}
+.pergunta2 {
+    font-size: 1.0em;
+    font-weight: bold;
+}
+#conferir2 {
+    background-color: cornflowerblue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80%;
+    font-weight: bold;
+}
+#caixaQuiz3 {
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(79, 236, 150);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+#resposta3 {
+    padding: 10px;
+    font-size: .9rem;
+    color: #fff;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    height: 40px;
+    flex: 0 0 30%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 100%;
+}
+.pergunta3 {
+    font-size: 1.0em;
+    font-weight: bold;
+}
+#conferir3 {
+    background-color: cornflowerblue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80%;
+    font-weight: bold;
+}
+#caixaQuiz4 {
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(79, 236, 150);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+#resposta4 {
+    padding: 10px;
+    font-size: .9rem;
+    color: #fff;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    height: 40px;
+    flex: 0 0 30%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 100%;
+}
+.pergunta4 {
+    font-size: 1.0em;
+    font-weight: bold;
+}
+#conferir4 {
+    background-color: cornflowerblue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80%;
+    font-weight: bold;
+}
+#caixaQuiz5 {
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(79, 236, 150);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+#resposta5 {
+    padding: 10px;
+    font-size: .9rem;
+    color: #fff;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    height: 40px;
+    flex: 0 0 30%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 100%;
+}
+.pergunta5 {
+    font-size: 1.0em;
+    font-weight: bold;
+}
+#conferir5 {
+    background-color: cornflowerblue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80%;
+    font-weight: bold;
+}
+#totalPontos {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+    font-weight: bold;
+}
+#btnConferirPontos {
+    background-color: rgb(3, 36, 97);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 60px;
+    width: 100px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90%;
+    font-weight: bold;
+    display: block;
+    top: 20px;
+    
+}
