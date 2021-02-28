@@ -11,10 +11,31 @@ body {
 }
 
 #header {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 65px;
+    background-color: rgb(79, 236, 150);
+
+}
+.logo {
+    margin: 10px;
+    
+}
+.logo:hover {
+    width: 95px;
+    height: 46px;
+    
+}
+.barras {
+    float: right;
+    margin: 15px;
+}
+#principal {
     margin: 50px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    
+    text-align: center;
 }
 #caixaQuiz1 {
     margin: 20px;
@@ -288,7 +309,7 @@ label {
     font-weight: bold;
 }
 #btnConferirPontos {
-    background-color: rgb(3, 36, 97);
+    background-color: rgb(4, 56, 153);
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -303,5 +324,47 @@ label {
     font-weight: bold;
     display: block;
     top: 20px;
+}
+#btnConferirPontos:hover {
+    height: 62px;
+    width: 105px;
+    background-color: rgb(3, 36, 97);
+}
+
+#retornar {
+    box-sizing: border-box;
+    position: sticky;
+    font-family: 'Courier New', Courier, monospace;
+    float: right;
+    width: 100px;
+    height: 70px;
+    background-color: rgb(4, 56, 153);
+    font-size: 14px;
+    border-radius: 15px 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
     
+}
+#retornar:hover {
+    background-color: rgb(79, 236, 150);
+    font-size: 14px;
+}
+
+.boxRetornar {
+    text-align: center;
+    text-decoration: none;
+}
+
+.recomeçar {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 1px;
+}
+
+.recomeçar:hover {
+    color: rgb(3, 36, 97);
+    font-weight: 2000;
+    font-size: 14px;
 }

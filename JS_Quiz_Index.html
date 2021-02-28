@@ -5,15 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz!</title>
+    <script src="https://kit.fontawesome.com/88625b76fa.js" crossorigin="anonymous"></script>
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
-<header id='header'>
+<div id='header'>
+    <div class='logoQuiz'>
+        <a href="#"><img class='logo' src='logoQuizNovo.png' alt='logo Quiz' width='90' height='45'></a>
+        <div class='barras'><i class="fas fa-bars" style="font-size:30px;color:rgb(255, 255, 255);"></i></div>
+    </div>
+</div>
+<div id='principal'>
     <div class='inicio'>
-    <h2>Bem vindo ao Quiz Fábio!</h2>
+    <h2>Bem vindo ao Quiz do Fábio!</h2>
     <p>Nosso quiz é composto de 5 perguntas. A cada resposta correta são creditados 10 pontos. Ao final confira seus pontos.</p>
     </div>
-
+    
     <div id='caixaQuiz1'>
         <label class='pergunta1'>1. Em qual cidade nasceu Jesus?</label>
         <label class='A'>A) Jerusalém</label>
@@ -66,7 +73,12 @@
         <p>Fim do jogo. Clique no botão abaixo para conferir sua pontuação:
         <input type='submit' id='btnConferirPontos' value='Pontos'>
     </div>
-</header>
+</div>
+<div id='retornar'>
+    <div class='boxRetornar'>
+        <a href="JS_Quiz_Index.html" class='recomeçar'><p>Começar novamente</p></a>
+    </div>
+</div>
 <script src="scripts.js"></script>
 </body>
 </html>
